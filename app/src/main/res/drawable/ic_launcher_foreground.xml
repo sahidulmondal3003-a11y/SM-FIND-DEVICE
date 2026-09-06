@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Location pin, sized inside the 66dp adaptive-icon safe zone (centered in 108dp canvas) -->
+    <path android:pathData="M54,25 C41.6,25 31.5,35.1 31.5,47.5 C31.5,64.5 54,85 54,85 C54,85 76.5,64.5 76.5,47.5 C76.5,35.1 66.4,25 54,25 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="31.5"
+                android:startY="25"
+                android:endX="76.5"
+                android:endY="85"
+                android:startColor="#2E7DF6"
+                android:endColor="#17C3B2" />
+        </aapt:attr>
+    </path>
+
+    <!-- Inner disc -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,35 C46.5,35 40.5,41 40.5,48.5 C40.5,56 46.5,62 54,62 C61.5,62 67.5,56 67.5,48.5 C67.5,41 61.5,35 54,35 Z" />
+
+    <!-- Crosshair / "find" motif inside the disc -->
+    <path
+        android:fillColor="#12335C"
+        android:pathData="M54,40 L54,45 M54,52 L54,57 M47,48.5 L52,48.5 M56,48.5 L61,48.5"
+        android:strokeColor="#12335C"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#12335C"
+        android:strokeWidth="1.6"
+        android:pathData="M54,48.5 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>
